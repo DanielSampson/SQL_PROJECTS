@@ -17,7 +17,7 @@ It calculates the average days between orders for each customer and ranks them b
 The dataset can be created using the included file:  
 dataset.sql
 
-*Table:* Orders  
+*Table:* Sale.Orders  
 *Columns used:*  
 - OrderID  
 - CustomerID  
@@ -72,9 +72,11 @@ GROUP BY CustomerID;
 
 ## 📊 Final Output
 
+Screenshot of final output (Step 4):
+
 ![Final Output](3.0%20Final_output.jpg)
 
- Table:
+Example Table:
 
 | CustomerID | AvgDaysB4NextOrder | RankAvg |
 |------------|------------------|---------|
@@ -82,15 +84,6 @@ GROUP BY CustomerID;
 | 2          | 34               | 2       |
 | 3          | 34               | 2       |
 | 4          | NULL             | 4       |
-
----
-
-## 💡 Insights
-
-- Customer 1 is the fastest returning (18 days).  
-- Customers 2 & 3 tie at 34 days.  
-- Customer 4 has only one order.  
-- Ranking helps identify loyal customers and potential targets for retention campaigns.
 
 ---
 

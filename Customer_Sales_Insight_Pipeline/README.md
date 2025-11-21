@@ -58,8 +58,7 @@ CREATE TABLE Orders (
     OrderDate DATE
 );
 
-**Sample_Data/Orders.sql**
-```sql
+
 INSERT INTO Orders (OrderID, CustomerID, Sales, OrderDate) VALUES
 (101, 1, 120.50, '2025-01-15'),
 (102, 2, 75.00, '2025-01-20'),

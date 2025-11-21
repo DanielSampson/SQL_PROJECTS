@@ -11,8 +11,14 @@ This repository contains my SQL practice projects, exercises, and analyses. Each
    - Demonstrates aggregation, window functions (`LAG`), and percentage change calculations  
    - Includes optional Excel visualization of trends
 
-2. **Project 2** — 
-3. **Project 3** —
+2. **[Customer Loyalty Analysis](Customer_Loyalty_Analysis/)**  
+   - Ranks customers based on the average number of days between their orders  
+   - Demonstrates use of window functions (`LEAD`), aggregation (`AVG`), and ranking (`RANK`)  
+   - Helps identify loyal and less frequent customers 
+3. **[Customer Sales Insight Pipeline](Customer_Sales_Insight_Pipeline/)**  
+   - Analyzes customer sales data to calculate total sales, last order date, ranking, and segmentation  
+   - Demonstrates use of CTEs, aggregation, window functions, and CASE statements  
+   - Helps identify top-performing customers and segment them for targeted analysis
 4. **Project 4** — 
 
 ---
